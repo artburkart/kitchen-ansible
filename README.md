@@ -59,8 +59,8 @@ platforms:
 By default test-kitchen installs chef to get a ruby version suitable to run serverspec in the `verify` step.
 Instead ruby can just be installed by specifying the provisioner option:
 
-```
-require_ruby_for_busser: false
+```yaml
+require_ruby_for_busser: true
 ```
 And set the verifier section:
 ```
